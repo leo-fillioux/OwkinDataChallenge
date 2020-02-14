@@ -3,7 +3,7 @@ from sklearn.decomposition import PCA
 from lifelines import CoxPHFitter
 import pandas as pd
 
-def applyPCA(image_features, radiomics, clinical_data, pca = None, pca_order = 50):
+def applyPCA(image_features, radiomics, clinical_data, pca = None, pca_order = 80):
     """
     Apply the PCA to make sure that the features are all linearly independent
         parameters : features, PCA if applying the one fitted on train to apply on dev, order of the PCA

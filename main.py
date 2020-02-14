@@ -74,9 +74,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--latent-size", type = int, default = 60, help = "Size of the feature vector extracted from the image")
+    parser.add_argument("--latent-size", type = int, default = 1000, help = "Size of the feature vector extracted from the image")
     parser.add_argument("--epochs", type = int, default = 10, help = "Number of training epochs")
-    parser.add_argument("--batch-size", type = int, default = 32, help = "Batch size used for training")
+    parser.add_argument("--batch-size", type = int, default = 105, help = "Batch size used for training")
     parser.add_argument("--learning-rate", type = float, default = 0.001, help = "Learning rate for the optimizer")
     parser.add_argument("--silent", default = False, action = "store_true", help = "Go in silent mode and only print the results")
     parser.add_argument("--dont-submit", default=False, action="store_true", help = "Do not predict on the test set")
