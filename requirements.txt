@@ -1,0 +1,7 @@
+# Requirements for the Owkin data challenge.
+numpy 		== 1.18.1
+pandas 		== 1.0.1
+SimpleITK 	== 1.2.4
+scikit-learn	== 0.22.1
+torch		== 1.4.0
+lifelines	== 0.23.9
